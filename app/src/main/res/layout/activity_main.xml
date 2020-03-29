@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#c4f0b6"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/c1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            android:background="#f6ffaa"
+            android:drawableTop="@drawable/corona"
+            android:onClick="button1"
+            android:textAllCaps="false"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Covid19 ?"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            android:background="#f6ffaa"
+            android:drawableTop="@drawable/download"
+            android:gravity="top"
+            android:onClick="button2"
+            android:paddingBottom="2dp"
+            android:textAllCaps="false"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Symptoms"
+            android:textColor="#000"
+            android:textSize="28sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            android:background="#f6ffaa"
+            android:drawableTop="@drawable/p1"
+            android:onClick="button3"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="How to Prevent ?"
+            android:textColor="#000"
+            android:textSize="28sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            android:background="#f6ffaa"
+            android:drawableTop="@drawable/phone"
+            android:onClick="button4"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Helpline Number"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="670dp"
+        android:layout_marginBottom="5dp"
+        android:background="#784a62"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:text="WANT TO DONATE ? " />
+
+</RelativeLayout>

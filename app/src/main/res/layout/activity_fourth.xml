@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#c4f0b6"
+    android:layout_height="match_parent"
+    tools:context=".fourth">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        app:srcCompat="@drawable/c1"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:textColor="#000"
+        android:text="HelpLINE NUMBERS"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220dp" />
+
+</RelativeLayout>
